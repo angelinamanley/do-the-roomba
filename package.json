@@ -1,0 +1,11 @@
+{
+  "name": "do-the-roomba",
+  "version": "1.0.0",
+  "description": "multifunctional cleaning and dancing ",
+  "main": "index.js",
+  "scripts": {
+    "test": "do the roomba"
+  },
+  "author": "Angelina Shin",
+  "license": "ISC"
+}
