@@ -1,4 +1,4 @@
-Do-The-Roomba 
+#Do-The-Roomba 
 
 It's time to do the Roomba, the newest vacuum dancing sensation! Navigate an imaginary robotic hoover (much like a Roomba )
 through an equally imaginary room based on:
@@ -13,6 +13,7 @@ bottom left corner of those grid positions.
 ● Driving instructions (as cardinal directions ) where e.g. N and E mean "go north" and
 "go east" respectively)
 
+## Installation
 
 
 Run in local
