@@ -7,5 +7,11 @@
     "test": "do the roomba"
   },
   "author": "Angelina Shin",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "figlet": "^1.2.4",
+    "inquirer": "^7.0.0",
+    "shelljs": "^0.8.3"
+  }
 }
