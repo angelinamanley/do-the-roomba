@@ -37,15 +37,9 @@ Example:
 2 3
 NNESEESWNWW
 ```
-
-* First line: Room dimensions as X and Y coordinates , identifying the top right corner of the room
-rectangle. This room is divided up in a grid-based on these dimensions; a room that
-has dimensions X: 5 and Y: 5 has 5 columns and 5 rows, so 25 possible hoover
-positions. The bottom left corner is the point of origin for our coordinate system, so as
-the room contains all coordinates its bottom left corner is defined by X: 0 and Y: 0.
-* Second Line: An initial hoover position (X and Y coordinates like patches of dirt)
-* Next Lines: Locations of patches of dirt, also defined by X and Y coordinates identifying the
-bottom left corner of those grid positions.
-* Last Line: Driving instructions (as cardinal directions ) where e.g. N and E mean "go north" and
-"go east" respectively)
+● the first line holds the room dimensions (X Y), separated by a single space (all
+coordinates will be presented in this format)
+● the second line holds the hoover position
+● subsequent lines contain the zero or more positions of patches of dirt (one per line)
+● the next line then always contains the driving instructions (at least one)
 
