@@ -16,6 +16,14 @@ $ node index.js
 
 ## Usage
 
+* In the root folder run 
+
+```
+node index.js
+```
+
+
+
 ● Room dimensions as X and Y coordinates , identifying the top right corner of the room
 rectangle. This room is divided up in a grid-based on these dimensions; a room that
 has dimensions X: 5 and Y: 5 has 5 columns and 5 rows, so 25 possible hoover
