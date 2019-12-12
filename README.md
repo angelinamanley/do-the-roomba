@@ -6,7 +6,7 @@ through an equally imaginary room.
 ## Installation
 
 ### Run in local
-Clone the repo
+* Clone the repo
 
 ```bash
 $ cd do-the-roomba
