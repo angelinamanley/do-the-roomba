@@ -1,7 +1,7 @@
 const inquirer = require("inquirer");
 const chalk = require("chalk");
 const figlet = require("figlet");
-const main = require('./src/main.js')
+const main = require('./roomba.js')
 const fs = require('fs');
 const array = fs.readFileSync('input.txt', 'utf8').split(/[\r\n]+/);
 const dimensions = array[0].split(' ').map(Number)
@@ -113,4 +113,4 @@ const run = async () => {
     }
   }
   
-  run();
+run();
